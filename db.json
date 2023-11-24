@@ -1,9 +1,18 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "user": {
+    "joao-silva@gmail.com": {
+      "id":"278",
+      "senha": "123456",
+      "nome": "João da Silva",
+      "email": "joao-silva@gmail.com",
+      "dataNascimento": "15/05/1978"
+    },
+    "rafaela@yahoo.com.br":{
+      "id":"778",
+      "senha": "123",
+      "nome" : "Rafaela Macaela",
+      "email" : "rafaela@yahoo.com.br",
+      "dataNascimento": "10/03/2000"
+    }
+  }
 }
